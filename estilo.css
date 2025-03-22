@@ -346,11 +346,6 @@ footer img {
         flex-direction: column;
         align-items: center;
     }
-
-    .rodape-conteudo
-    {
-        width: 250px;
-    }
 }
 
 @media(max-width: 540px)

@@ -347,6 +347,9 @@ footer img {
         align-items: center;
     }
 }
+ .limita-div {
+        width: 100%;
+    }
 
 @media(max-width: 540px)
 {
@@ -356,6 +359,9 @@ footer img {
     } */
 
     .formulario-campo-duplo div, .radio div {
+        width: 100%;
+    }
+     .limita-div {
         width: 100%;
     }
 

@@ -1,0 +1,367 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', 'sans-serif';
+    background-color: #80808029;
+}
+/* ESTILO DO TOPO */
+header {
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tag-topo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+/* .largura-max {
+    max-width: 80%;
+    height: 650px;
+} */
+.tag-topo img {
+    width: 32px;
+    height: 32px;
+}
+.tag-topo p {
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
+/* ESTILO DA SEÇÃO PRINCIPAL E TABELAS */
+.limita-tabela {
+    background-color: aqua;
+    background-image: url("/viagens/viagem/assets/imagens/bahia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    width: 100%;
+    margin: auto; 
+    flex-direction: column;
+}
+.topo-tabela {
+    background-color: #5d15d1;
+    height: 35px;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center; 
+    margin: auto;
+}
+.topo-tabela img {
+    width: 20px;
+    height: 20px;
+    rotate: -45deg;
+}
+.topo-tabela figcaption {
+   font-size: 14px;
+   color: #fff;
+   margin-left: 5px;
+}
+.tabelas {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px 25px 20px 25px;
+}
+.tabelas h1 {
+    font-size: 22px;
+    margin-bottom: 22px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-size: 16px;
+}
+input, select {
+    height: 35px;
+    width: 100%;
+    padding: 0px 5px;
+    margin: 5px 0px;
+}
+select {
+    padding: 0px 3px;
+    display: flex;
+}
+.container-1 {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.limita-div {
+    width: 83.9vh;
+}
+.container-2 {
+    margin-top: 50px;
+    display: flex;
+    width: auto;
+    height: 200px;
+    flex-direction: column;
+}
+.container-2 input {
+    width: 15px;
+    margin-right: 10px;
+}
+.radio-div label{
+    margin-right: 100px;
+} 
+
+.radio-div {
+    display: flex;
+    align-items: center;
+}
+.opcoes {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 45%;
+    
+}
+.opcoes label{
+    margin-right: 15px;
+}
+.opcoes input {
+    margin-right: 10px;
+}
+button {
+    width: 160px;
+    height: 32px;
+    background-color: #5d15d1;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    margin-top: 12px;
+}
+button:hover {
+    cursor: pointer;
+}  
+/* area da galeria e ofertas */
+.segunda-sec {
+    max-width: 80%;
+    margin: 32px auto;
+}
+.segunda-sec h3, .anuncio h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.segunda-sec h4,
+.anuncio h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.segunda-sec img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.galer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin: 0px auto 30px auto;
+}
+.princ {
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.quadro-img {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+}
+
+.anuncio {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.texto-oferta {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    flex: 0 1 auto;
+}
+.texto-oferta h5 {
+    font-size: 16px;
+}
+.texto-oferta p {
+    color: grey;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.anuncio-oferta{
+    display: flex;
+    flex-direction: column;
+    max-width: 48%;
+}
+
+/* PRIMEIRA GALERIA */
+.ofertas-imagens {
+    width: 100%;
+    height: 375px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.oferta-imagem-destaque {
+    position: relative;
+    width: calc(50% - 10px);
+    height: 100%;
+}
+
+.oferta-quatro-imagens {
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.oferta-quatro-imagens figure {
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 6px;
+}
+
+.oferta-imagem-destaque img, .oferta-quatro-imagens img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.oferta-imagem-destaque figcaption, .oferta-quatro-imagens figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    background: rgb(0 0 0 / 50%);
+    font-size: 17px;
+    color: #fff;
+
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+/* RODAPÉ */
+footer {
+    width: 100%;
+    justify-content: center;
+    background-color: #5d15d1;
+}
+footer img {
+    width: 20px;
+}
+.rodape {  
+    display: flex;
+    max-width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.rodape-div {
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+ }
+.rodape-div h6 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.rodape-div span {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #fff;
+
+}
+.rodape-textos {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+/* MEDIA QUERIES */
+/* @media(max-width: 1100px)
+{
+    .limite-largura {
+        width: 90%;
+    }
+} */
+
+@media(max-width: 768px)
+{
+    button {
+        width: 100%;
+    }
+
+    .ofertas-imagens {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .oferta-quatro-imagens {
+        width: 100%;
+    }
+
+    .oferta-imagem-destaque, .oferta-quatro-imagens figure {
+        width: 100%;
+        height: 225px;
+        margin: 15px 0 0 0;
+    }
+
+    .natureza-duas-imagens {
+        flex-direction: column;
+    }
+
+    .natureza-imagem {
+        width: 100%;
+        margin: 15px 0 0 0;
+    }
+
+    .rodape {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape-conteudo
+    {
+        width: 250px;
+    }
+}
+
+@media(max-width: 540px)
+{
+    /* .opcoes, .radio-div {
+        flex-wrap: wrap;
+        flex-direction: column;
+    } */
+
+    .formulario-campo-duplo div, .radio div {
+        width: 100%;
+    }
+
+}

@@ -351,13 +351,7 @@ footer img {
         width: 100%;
     }
 
-@media(max-width: 540px)
-{
-    /* .opcoes, .radio-div {
-        flex-wrap: wrap;
-        flex-direction: column;
-    } */
-
+@media(max-width: 540px) {
     .formulario-campo-duplo div, .radio div {
         width: 100%;
     }

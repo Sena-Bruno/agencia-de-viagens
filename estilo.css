@@ -39,7 +39,7 @@ header {
 /* ESTILO DA SEÇÃO PRINCIPAL E TABELAS */
 .limita-tabela {
     background-color: aqua;
-    background-image: url("assets/imagens/bahia.jpg");
+    background-image: url("/assets/imagens/bahia.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
